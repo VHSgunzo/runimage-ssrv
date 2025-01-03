@@ -14,5 +14,5 @@ source=("$url/releases/download/v$pkgver/ssrv-${CARCH}-v$pkgver.r0.gfebc9d3.tar.
 sha256sums=('SKIP')
 
 package() {
-  install -Dm755 "ssrv" "${pkgdir}/var/RunDir/static/ssrv"
+  install -Dm755 "ssrv" "${pkgdir}/var/RunDir/sharun/bin/ssrv"
 }
